@@ -25,7 +25,7 @@ Positioning: "Good AI runs on good data." Present the data engineering backgroun
 
 ## Status: what's done
 - Hero with name, rotating role text, and an animated data-flow canvas.
-- Projects section (3 projects), About, Skills, Experience timeline, Contact, footer.
+- Projects section (4 projects), About, Skills, Experience timeline, Contact, footer.
 - Project 01 (the university mammography project) is real content.
 
 ## To do
@@ -33,9 +33,10 @@ Positioning: "Good AI runs on good data." Present the data engineering backgroun
 - [x] Add real GitHub, LinkedIn and email links (nav, contact section). Rotating role text now uses Data Analyst instead of ML Engineer.
 - [x] Projects: 01 mammography (university), 02 COVID-19 papers, 03 RAG (real repo), 04 Uber analysis. All real, all with GitHub links.
 - [x] Removed the "Published" badge and paper link; project 01 is a university project.
-- [ ] Add `assets/resume.pdf` and point the "Get my resume" button at it.
+- [ ] Add `assets/resume.pdf` and point the "Get my resume" button at it. BLOCKED: user is still writing the resume. Until then, consider hiding the button.
 - [x] Experience timeline filled in (Gandara Center, CMU, ValueMomentum). Optional: add impact numbers for the Gandara Center role.
 - [x] Add Python to skills (confirmed by user; in Data engineering group).
+- [ ] Skills: user says many more skills still to add. Ask for the list, then update the Skills section in `index.html` (do not add skills the user has not confirmed).
 - [x] Open Graph preview image added (`assets/og-image.png` + meta tags in `index.html`).
 - [ ] Optional: custom domain. If the site URL changes, update the og:url and og:image URLs.
 
