@@ -36,7 +36,8 @@ Positioning: "Good AI runs on good data." Present the data engineering backgroun
 - [ ] Add `assets/resume.pdf` and point the "Get my resume" button at it.
 - [x] Experience timeline filled in (Gandara Center, CMU, ValueMomentum). Optional: add impact numbers for the Gandara Center role.
 - [x] Add Python to skills (confirmed by user; in Data engineering group).
-- [ ] Optional: add an Open Graph preview image and a custom domain.
+- [x] Open Graph preview image added (`assets/og-image.png` + meta tags in `index.html`).
+- [ ] Optional: custom domain. If the site URL changes, update the og:url and og:image URLs.
 
 ## Done (credentials)
 - Credential links added in About: PL-300 (Microsoft Learn), Google data courses (skills.google), HackerRank certificate.
