@@ -78,73 +78,10 @@
       </div>
 
       <div class="project-list">
-        <!-- Project 1: university project -->
+        <!-- Project 1: Grounded document Q&A (RAG) -->
         <article class="project">
           <div>
             <div class="p-num">01</div>
-            <h3>Breast cancer detection in screening mammograms <span class="badge">University project</span></h3>
-            <p>A deep learning approach to detecting breast cancer in screening mammograms, written up as a project during my master's in computer science.</p>
-            <ul class="tags"><li>Deep learning</li><li>Computer vision</li><li>Medical imaging</li><li>Research</li></ul>
-            <!-- EDIT: optionally add a links div here with a link to the report or code -->
-          </div>
-          <div class="p-visual" aria-hidden="true">
-            <svg viewBox="0 0 320 220">
-              <defs>
-                <radialGradient id="tissue" cx="35%" cy="50%" r="70%">
-                  <stop offset="0" stop-color="var(--muted)" stop-opacity=".55"/>
-                  <stop offset="1" stop-color="var(--muted)" stop-opacity=".05"/>
-                </radialGradient>
-              </defs>
-              <rect x="20" y="16" width="130" height="188" rx="10" fill="var(--surface-2)"/>
-              <path d="M20 26 Q 125 50 128 110 Q 125 170 20 194 Z" fill="url(#tissue)"/>
-              <rect x="70" y="84" width="36" height="36" rx="4" fill="none" stroke="var(--accent)" stroke-width="2.5"/>
-              <circle cx="88" cy="102" r="6" fill="var(--accent)" opacity=".8"/>
-              <g font-family="IBM Plex Sans, sans-serif" font-size="12" fill="var(--muted)">
-                <text x="172" y="44">Model output</text>
-              </g>
-              <g>
-                <rect x="172" y="60" width="128" height="10" rx="5" fill="var(--surface-2)"/>
-                <rect x="172" y="60" width="104" height="10" rx="5" fill="var(--accent)"/>
-                <text x="172" y="88" font-family="IBM Plex Sans, sans-serif" font-size="11" fill="var(--text)">Suspicious region</text>
-                <rect x="172" y="104" width="128" height="10" rx="5" fill="var(--surface-2)"/>
-                <rect x="172" y="104" width="30" height="10" rx="5" fill="var(--cool)"/>
-                <text x="172" y="132" font-family="IBM Plex Sans, sans-serif" font-size="11" fill="var(--text)">Benign</text>
-              </g>
-              <path d="M106 102 C 140 102, 150 66, 170 66" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="4 4"/>
-            </svg>
-          </div>
-        </article>
-
-        <!-- Project 2: COVID-19 research papers -->
-        <article class="project">
-          <div>
-            <div class="p-num">02</div>
-            <h3>Analysis of COVID-19 research papers</h3>
-            <p>Health professionals struggle to keep up with new COVID-19 research. This project cleans and text-mines a paper dataset, finds keywords, and clusters similar papers so they show up near each other on a scatter plot.</p>
-            <ul class="tags"><li>Python</li><li>Jupyter</li><li>Pandas</li><li>NLTK</li><li>Clustering</li><li>Text mining</li></ul>
-            <div class="links">
-              <a href="https://github.com/VJ1133/Analysis-of-COVID-19-research-papers" target="_blank" rel="noopener">View code on GitHub</a>
-            </div>
-          </div>
-          <div class="p-visual" aria-hidden="true">
-            <svg viewBox="0 0 320 220" font-family="IBM Plex Sans, sans-serif" font-size="11">
-              <g fill="var(--accent)"><circle cx="60" cy="70" r="5"/><circle cx="80" cy="88" r="5"/><circle cx="52" cy="98" r="5"/><circle cx="76" cy="62" r="5"/><circle cx="92" cy="76" r="5"/></g>
-              <g fill="var(--cool)"><circle cx="200" cy="52" r="5"/><circle cx="222" cy="68" r="5"/><circle cx="188" cy="76" r="5"/><circle cx="214" cy="42" r="5"/><circle cx="236" cy="56" r="5"/></g>
-              <g fill="var(--text)" opacity=".75"><circle cx="150" cy="158" r="5"/><circle cx="172" cy="176" r="5"/><circle cx="132" cy="178" r="5"/><circle cx="160" cy="190" r="5"/><circle cx="184" cy="152" r="5"/></g>
-              <g fill="none" stroke="var(--line)" stroke-width="1.5" stroke-dasharray="3 4">
-                <ellipse cx="71" cy="79" rx="40" ry="34"/><ellipse cx="212" cy="58" rx="42" ry="32"/><ellipse cx="156" cy="170" rx="42" ry="34"/>
-              </g>
-              <text x="71" y="128" text-anchor="middle" fill="var(--muted)">topic A</text>
-              <text x="212" y="102" text-anchor="middle" fill="var(--muted)">topic B</text>
-              <text x="156" y="214" text-anchor="middle" fill="var(--muted)">topic C</text>
-            </svg>
-          </div>
-        </article>
-
-        <!-- Project 3: Grounded document Q&A (RAG) -->
-        <article class="project">
-          <div>
-            <div class="p-num">03</div>
             <h3>Grounded document Q&amp;A with RAG</h3>
             <p>Upload PDFs, ask questions in plain English and get answers cited to the page. Hybrid retrieval with cross-encoder reranking lifted retrieval MRR from 0.25 to 0.90 on my evaluation set, and the assistant refuses when the documents don't support an answer.</p>
             <ul class="tags"><li>RAG</li><li>LLMs</li><li>Python</li><li>ChromaDB</li><li>FastAPI</li><li>Docker</li></ul>
@@ -175,10 +112,10 @@
           </div>
         </article>
 
-        <!-- Project 4: Uber price analysis -->
+        <!-- Project 2: Uber price analysis -->
         <article class="project">
           <div>
-            <div class="p-num">04</div>
+            <div class="p-num">02</div>
             <h3>Uber ride price analysis and prediction</h3>
             <p>Exploratory analysis of how ride features and weather affect price. Recursive feature elimination cut 25 features to 8, and Random Forest, Decision Tree and Gradient Boosting each scored over 96% accuracy on training. I chose Random Forest for its lower overfitting risk and built a function that predicts prices with it.</p>
             <ul class="tags"><li>Python</li><li>EDA</li><li>Feature selection</li><li>Random Forest</li><li>Scikit-learn</li></ul>
@@ -198,6 +135,69 @@
               <text x="170" y="204" text-anchor="middle" fill="var(--muted)">features ranked by importance</text>
               <rect x="170" y="22" width="130" height="30" rx="8" fill="var(--surface-2)"/>
               <text x="235" y="42" text-anchor="middle" fill="var(--text)">Random Forest</text>
+            </svg>
+          </div>
+        </article>
+
+        <!-- Project 3: COVID-19 research papers -->
+        <article class="project">
+          <div>
+            <div class="p-num">03</div>
+            <h3>Analysis of COVID-19 research papers</h3>
+            <p>Health professionals struggle to keep up with new COVID-19 research. This project cleans and text-mines a paper dataset, finds keywords, and clusters similar papers so they show up near each other on a scatter plot.</p>
+            <ul class="tags"><li>Python</li><li>Jupyter</li><li>Pandas</li><li>NLTK</li><li>Clustering</li><li>Text mining</li></ul>
+            <div class="links">
+              <a href="https://github.com/VJ1133/Analysis-of-COVID-19-research-papers" target="_blank" rel="noopener">View code on GitHub</a>
+            </div>
+          </div>
+          <div class="p-visual" aria-hidden="true">
+            <svg viewBox="0 0 320 220" font-family="IBM Plex Sans, sans-serif" font-size="11">
+              <g fill="var(--accent)"><circle cx="60" cy="70" r="5"/><circle cx="80" cy="88" r="5"/><circle cx="52" cy="98" r="5"/><circle cx="76" cy="62" r="5"/><circle cx="92" cy="76" r="5"/></g>
+              <g fill="var(--cool)"><circle cx="200" cy="52" r="5"/><circle cx="222" cy="68" r="5"/><circle cx="188" cy="76" r="5"/><circle cx="214" cy="42" r="5"/><circle cx="236" cy="56" r="5"/></g>
+              <g fill="var(--text)" opacity=".75"><circle cx="150" cy="158" r="5"/><circle cx="172" cy="176" r="5"/><circle cx="132" cy="178" r="5"/><circle cx="160" cy="190" r="5"/><circle cx="184" cy="152" r="5"/></g>
+              <g fill="none" stroke="var(--line)" stroke-width="1.5" stroke-dasharray="3 4">
+                <ellipse cx="71" cy="79" rx="40" ry="34"/><ellipse cx="212" cy="58" rx="42" ry="32"/><ellipse cx="156" cy="170" rx="42" ry="34"/>
+              </g>
+              <text x="71" y="128" text-anchor="middle" fill="var(--muted)">topic A</text>
+              <text x="212" y="102" text-anchor="middle" fill="var(--muted)">topic B</text>
+              <text x="156" y="214" text-anchor="middle" fill="var(--muted)">topic C</text>
+            </svg>
+          </div>
+        </article>
+
+        <!-- Project 4: university project -->
+        <article class="project">
+          <div>
+            <div class="p-num">04</div>
+            <h3>Breast cancer detection in screening mammograms <span class="badge">University project</span></h3>
+            <p>A deep learning approach to detecting breast cancer in screening mammograms, written up as a project during my master's in computer science.</p>
+            <ul class="tags"><li>Deep learning</li><li>Computer vision</li><li>Medical imaging</li><li>Research</li></ul>
+            <!-- EDIT: optionally add a links div here with a link to the report or code -->
+          </div>
+          <div class="p-visual" aria-hidden="true">
+            <svg viewBox="0 0 320 220">
+              <defs>
+                <radialGradient id="tissue" cx="35%" cy="50%" r="70%">
+                  <stop offset="0" stop-color="var(--muted)" stop-opacity=".55"/>
+                  <stop offset="1" stop-color="var(--muted)" stop-opacity=".05"/>
+                </radialGradient>
+              </defs>
+              <rect x="20" y="16" width="130" height="188" rx="10" fill="var(--surface-2)"/>
+              <path d="M20 26 Q 125 50 128 110 Q 125 170 20 194 Z" fill="url(#tissue)"/>
+              <rect x="70" y="84" width="36" height="36" rx="4" fill="none" stroke="var(--accent)" stroke-width="2.5"/>
+              <circle cx="88" cy="102" r="6" fill="var(--accent)" opacity=".8"/>
+              <g font-family="IBM Plex Sans, sans-serif" font-size="12" fill="var(--muted)">
+                <text x="172" y="44">Model output</text>
+              </g>
+              <g>
+                <rect x="172" y="60" width="128" height="10" rx="5" fill="var(--surface-2)"/>
+                <rect x="172" y="60" width="104" height="10" rx="5" fill="var(--accent)"/>
+                <text x="172" y="88" font-family="IBM Plex Sans, sans-serif" font-size="11" fill="var(--text)">Suspicious region</text>
+                <rect x="172" y="104" width="128" height="10" rx="5" fill="var(--surface-2)"/>
+                <rect x="172" y="104" width="30" height="10" rx="5" fill="var(--cool)"/>
+                <text x="172" y="132" font-family="IBM Plex Sans, sans-serif" font-size="11" fill="var(--text)">Benign</text>
+              </g>
+              <path d="M106 102 C 140 102, 150 66, 170 66" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="4 4"/>
             </svg>
           </div>
         </article>
@@ -291,7 +291,7 @@
           <div>
             <h3>Master of Science, Computer Science</h3>
             <div class="t-where">Central Michigan University, Mount Pleasant, Michigan</div>
-            <p>Specialization in Data Mining and Pattern Recognition. University project on deep learning for breast cancer detection in screening mammograms.</p>
+            <p>Specialization in Data Mining and Pattern Recognition.</p>
           </div>
         </li>
         <li>
@@ -303,7 +303,7 @@
           </div>
         </li>
         <li>
-          <div class="t-when">2015 – 2019</div>
+          <div class="t-when">Aug 2015 – Aug 2019</div>
           <div>
             <h3>Bachelor of Technology, Electronics and Communication Engineering</h3>
             <div class="t-where">Guru Nanak Institutions Technical Campus</div>
