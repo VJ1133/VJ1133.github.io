@@ -31,7 +31,7 @@ Positioning: "Good AI runs on good data." Present the data engineering backgroun
 ## To do
 - [x] Replace "Your Name" and "YN" initials everywhere (now Vamshi Jaligama / VJ), including `<title>` and meta description.
 - [x] Add real GitHub, LinkedIn and email links (nav, contact section). Rotating role text now uses Data Analyst instead of ML Engineer.
-- [ ] Project 02 is now the real COVID-19 research papers project. Project 03 (RAG assistant) is still a stand-in: replace with a real GitHub project (title, 1–2 sentence description, tech tags, GitHub link, demo link if available).
+- [x] Projects: 01 mammography (university), 02 COVID-19 papers, 03 RAG (real repo), 04 Uber analysis. All real, all with GitHub links.
 - [x] Removed the "Published" badge and paper link; project 01 is a university project.
 - [ ] Add `assets/resume.pdf` and point the "Get my resume" button at it.
 - [x] Experience timeline filled in (Gandara Center, CMU, ValueMomentum). Optional: add impact numbers for the Gandara Center role.

@@ -132,15 +132,15 @@
           </div>
         </article>
 
-        <!-- Project 3: EDIT with a real GitHub project -->
+        <!-- Project 3: Grounded document Q&A (RAG) -->
         <article class="project">
           <div>
             <div class="p-num">03</div>
-            <h3>RAG assistant over company documents</h3>
-            <p>Ask questions in plain language and get answers grounded in your own documents, with sources cited. Documents are chunked, embedded and retrieved before the LLM writes a reply.</p>
-            <ul class="tags"><li>RAG</li><li>LLMs</li><li>Vector search</li><li>Agentic AI</li></ul>
+            <h3>Grounded document Q&amp;A with RAG</h3>
+            <p>Upload PDFs, ask questions in plain English and get answers cited to the page. Hybrid retrieval with cross-encoder reranking lifted retrieval MRR from 0.25 to 0.90 on my evaluation set, and the assistant refuses when the documents don't support an answer.</p>
+            <ul class="tags"><li>RAG</li><li>LLMs</li><li>Python</li><li>ChromaDB</li><li>FastAPI</li><li>Docker</li></ul>
             <div class="links">
-              <a href="https://github.com/" target="_blank" rel="noopener">View code on GitHub</a>
+              <a href="https://github.com/VJ1133/Grounded-Document-Q-A-Retrieval-Augmented-Generation" target="_blank" rel="noopener">View code on GitHub</a>
             </div>
           </div>
           <div class="p-visual" aria-hidden="true">
@@ -161,7 +161,34 @@
               <rect x="160" y="136" width="120" height="7" rx="3.5" fill="var(--accent-ink)" opacity=".7"/>
               <rect x="160" y="152" width="132" height="7" rx="3.5" fill="var(--accent-ink)" opacity=".7"/>
               <rect x="160" y="168" width="84" height="7" rx="3.5" fill="var(--accent-ink)" opacity=".7"/>
-              <text x="160" y="192" fill="var(--accent-ink)" font-size="10" font-weight="600">Sources: 2 documents</text>
+              <text x="160" y="192" fill="var(--accent-ink)" font-size="10" font-weight="600">Cited to the page</text>
+            </svg>
+          </div>
+        </article>
+
+        <!-- Project 4: Uber price analysis -->
+        <article class="project">
+          <div>
+            <div class="p-num">04</div>
+            <h3>Uber ride price analysis and prediction</h3>
+            <p>Exploratory analysis of how ride features and weather affect price. Recursive feature elimination cut 25 features to 8, and Random Forest, Decision Tree and Gradient Boosting each scored over 96% accuracy on training. I chose Random Forest for its lower overfitting risk and built a function that predicts prices with it.</p>
+            <ul class="tags"><li>Python</li><li>EDA</li><li>Feature selection</li><li>Random Forest</li><li>Scikit-learn</li></ul>
+            <div class="links">
+              <a href="https://github.com/VJ1133/UberAnalysis" target="_blank" rel="noopener">View code on GitHub</a>
+            </div>
+          </div>
+          <div class="p-visual" aria-hidden="true">
+            <svg viewBox="0 0 320 220" font-family="IBM Plex Sans, sans-serif" font-size="11">
+              <g stroke="var(--line)" stroke-width="1.5"><path d="M40 20 V 180 H 300"/></g>
+              <rect x="56" y="70" width="28" height="110" rx="4" fill="var(--accent)"/>
+              <rect x="96" y="100" width="28" height="80" rx="4" fill="var(--accent)" opacity=".85"/>
+              <rect x="136" y="120" width="28" height="60" rx="4" fill="var(--accent)" opacity=".7"/>
+              <rect x="176" y="138" width="28" height="42" rx="4" fill="var(--accent)" opacity=".55"/>
+              <rect x="216" y="150" width="28" height="30" rx="4" fill="var(--accent)" opacity=".4"/>
+              <rect x="256" y="160" width="28" height="20" rx="4" fill="var(--accent)" opacity=".3"/>
+              <text x="170" y="204" text-anchor="middle" fill="var(--muted)">features ranked by importance</text>
+              <rect x="170" y="22" width="130" height="30" rx="8" fill="var(--surface-2)"/>
+              <text x="235" y="42" text-anchor="middle" fill="var(--text)">Random Forest</text>
             </svg>
           </div>
         </article>
