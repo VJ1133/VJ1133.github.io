@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!-- EDIT: replace "Your Name" everywhere on this page -->
+<title>Your Name | AI Engineer + Data Engineer</title>
+<meta name="description" content="Portfolio of Your Name: AI engineer and data engineer building RAG systems, LLM agents and cloud data pipelines on AWS, GCP and Azure.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔶</text></svg>">
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+
+<header class="nav" id="top-nav">
+  <div class="wrap nav-inner">
+    <!-- EDIT: your initials -->
+    <a class="brand" href="#intro">YN<span>.</span></a>
+    <nav class="nav-links" id="nav-links" aria-label="Main">
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-right">
+      <!-- EDIT: GitHub, LinkedIn and email links -->
+      <a class="icon-btn" href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.69 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>
+      </a>
+      <a class="icon-btn" href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg>
+      </a>
+      <button class="icon-btn" id="theme-btn" aria-label="Switch light or dark theme">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      </button>
+      <button class="icon-btn menu-btn" id="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="intro">
+    <canvas id="flow" aria-hidden="true"></canvas>
+    <div class="wrap hero-content">
+      <p class="hero-kicker">Hi, I'm</p>
+      <!-- EDIT: your name -->
+      <h1 class="hero-name" id="hero-name">Your Name</h1>
+      <p class="role" aria-live="polite">I work as an <span class="word" id="role-word">AI Engineer</span></p>
+      <p class="lede">Five years of building data pipelines across AWS, GCP and Azure. Now I build RAG systems and LLM agents on top of the data foundations I know best.</p>
+      <div class="cta-row">
+        <a class="btn primary" href="#projects">See my projects</a>
+        <!-- EDIT: link to your resume PDF -->
+        <a class="btn" href="#contact">Get my resume</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PROJECTS ================= -->
+  <section class="block" id="projects">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Selected work</h2>
+        <p>Research, production-style pipelines, and the AI systems I'm building now.</p>
+      </div>
+
+      <div class="project-list">
+        <!-- Project 1: published paper -->
+        <article class="project">
+          <div>
+            <div class="p-num">01</div>
+            <h3>Breast cancer detection in screening mammograms <span class="badge">Published</span></h3>
+            <p>A deep learning approach to detecting breast cancer in screening mammograms, written and published with my team during my master's in computer science.</p>
+            <ul class="tags"><li>Deep learning</li><li>Computer vision</li><li>Medical imaging</li><li>Research</li></ul>
+            <div class="links">
+              <!-- EDIT: link to the paper -->
+              <a href="#" target="_blank" rel="noopener">Read the paper</a>
+            </div>
+          </div>
+          <div class="p-visual" aria-hidden="true">
+            <svg viewBox="0 0 320 220">
+              <defs>
+                <radialGradient id="tissue" cx="35%" cy="50%" r="70%">
+                  <stop offset="0" stop-color="var(--muted)" stop-opacity=".55"/>
+                  <stop offset="1" stop-color="var(--muted)" stop-opacity=".05"/>
+                </radialGradient>
+              </defs>
+              <rect x="20" y="16" width="130" height="188" rx="10" fill="var(--surface-2)"/>
+              <path d="M20 26 Q 125 50 128 110 Q 125 170 20 194 Z" fill="url(#tissue)"/>
+              <rect x="70" y="84" width="36" height="36" rx="4" fill="none" stroke="var(--accent)" stroke-width="2.5"/>
+              <circle cx="88" cy="102" r="6" fill="var(--accent)" opacity=".8"/>
+              <g font-family="IBM Plex Sans, sans-serif" font-size="12" fill="var(--muted)">
+                <text x="172" y="44">Model output</text>
+              </g>
+              <g>
+                <rect x="172" y="60" width="128" height="10" rx="5" fill="var(--surface-2)"/>
+                <rect x="172" y="60" width="104" height="10" rx="5" fill="var(--accent)"/>
+                <text x="172" y="88" font-family="IBM Plex Sans, sans-serif" font-size="11" fill="var(--text)">Suspicious region</text>
+                <rect x="172" y="104" width="128" height="10" rx="5" fill="var(--surface-2)"/>
+                <rect x="172" y="104" width="30" height="10" rx="5" fill="var(--cool)"/>
+                <text x="172" y="132" font-family="IBM Plex Sans, sans-serif" font-size="11" fill="var(--text)">Benign</text>
+              </g>
+              <path d="M106 102 C 140 102, 150 66, 170 66" fill="none" stroke="var(--accent)" stroke-width="1.5" stroke-dasharray="4 4"/>
+            </svg>
+          </div>
+        </article>
+
+        <!-- Project 2: EDIT with a real GitHub project -->
+        <article class="project">
+          <div>
+            <div class="p-num">02</div>
+            <h3>Real-time streaming pipeline on GCP</h3>
+            <p>Events flow from Pub/Sub through Apache Beam on Dataflow into BigQuery, orchestrated with Airflow and surfaced in Power BI for near real-time reporting.</p>
+            <ul class="tags"><li>Pub/Sub</li><li>Apache Beam</li><li>BigQuery</li><li>Airflow</li><li>Power BI</li></ul>
+            <div class="links">
+              <a href="https://github.com/" target="_blank" rel="noopener">View code on GitHub</a>
+            </div>
+          </div>
+          <div class="p-visual" aria-hidden="true">
+            <svg viewBox="0 0 320 220" font-family="IBM Plex Sans, sans-serif" font-size="11">
+              <g fill="none" stroke="var(--line)" stroke-width="2">
+                <path d="M70 110 H 118"/><path d="M178 110 H 226"/>
+                <path d="M258 128 V 160"/>
+              </g>
+              <g fill="none" stroke="var(--accent)" stroke-width="2" stroke-dasharray="3 6">
+                <path d="M70 110 H 118"><animate attributeName="stroke-dashoffset" from="18" to="0" dur="1s" repeatCount="indefinite"/></path>
+                <path d="M178 110 H 226"><animate attributeName="stroke-dashoffset" from="18" to="0" dur="1s" repeatCount="indefinite"/></path>
+              </g>
+              <rect x="14" y="88" width="56" height="44" rx="10" fill="var(--surface-2)"/>
+              <text x="42" y="114" text-anchor="middle" fill="var(--text)">Pub/Sub</text>
+              <rect x="118" y="88" width="60" height="44" rx="10" fill="var(--surface-2)"/>
+              <text x="148" y="114" text-anchor="middle" fill="var(--text)">Beam</text>
+              <rect x="226" y="88" width="72" height="44" rx="10" fill="var(--accent)"/>
+              <text x="262" y="114" text-anchor="middle" fill="var(--accent-ink)" font-weight="600">BigQuery</text>
+              <rect x="222" y="160" width="80" height="40" rx="10" fill="var(--surface-2)"/>
+              <g fill="var(--cool)"><rect x="236" y="182" width="8" height="10"/><rect x="250" y="175" width="8" height="17"/><rect x="264" y="170" width="8" height="22"/><rect x="278" y="178" width="8" height="14"/></g>
+              <rect x="112" y="24" width="72" height="30" rx="8" fill="none" stroke="var(--line)" stroke-width="1.5"/>
+              <text x="148" y="43" text-anchor="middle" fill="var(--muted)">Airflow</text>
+              <path d="M148 54 V 88" stroke="var(--line)" stroke-width="1.5" stroke-dasharray="3 4"/>
+            </svg>
+          </div>
+        </article>
+
+        <!-- Project 3: EDIT with a real GitHub project -->
+        <article class="project">
+          <div>
+            <div class="p-num">03</div>
+            <h3>RAG assistant over company documents</h3>
+            <p>Ask questions in plain language and get answers grounded in your own documents, with sources cited. Documents are chunked, embedded and retrieved before the LLM writes a reply.</p>
+            <ul class="tags"><li>RAG</li><li>LLMs</li><li>Vector search</li><li>Agentic AI</li></ul>
+            <div class="links">
+              <a href="https://github.com/" target="_blank" rel="noopener">View code on GitHub</a>
+            </div>
+          </div>
+          <div class="p-visual" aria-hidden="true">
+            <svg viewBox="0 0 320 220" font-family="IBM Plex Sans, sans-serif" font-size="11">
+              <rect x="120" y="18" width="186" height="36" rx="14" fill="var(--surface-2)"/>
+              <text x="134" y="41" fill="var(--text)">What was Q3 churn by region?</text>
+              <g>
+                <rect x="14" y="72" width="80" height="26" rx="6" fill="none" stroke="var(--cool)" stroke-width="1.5"/>
+                <rect x="24" y="82" width="46" height="6" rx="3" fill="var(--cool)" opacity=".6"/>
+                <rect x="14" y="106" width="80" height="26" rx="6" fill="none" stroke="var(--cool)" stroke-width="1.5"/>
+                <rect x="24" y="116" width="56" height="6" rx="3" fill="var(--cool)" opacity=".6"/>
+                <rect x="14" y="140" width="80" height="26" rx="6" fill="none" stroke="var(--line)" stroke-width="1.5"/>
+                <rect x="24" y="150" width="38" height="6" rx="3" fill="var(--muted)" opacity=".4"/>
+              </g>
+              <path d="M94 85 C 120 85, 120 150, 146 150" fill="none" stroke="var(--cool)" stroke-width="1.5"/>
+              <path d="M94 119 C 120 119, 120 150, 146 150" fill="none" stroke="var(--cool)" stroke-width="1.5"/>
+              <rect x="146" y="118" width="160" height="84" rx="14" fill="var(--accent)"/>
+              <rect x="160" y="136" width="120" height="7" rx="3.5" fill="var(--accent-ink)" opacity=".7"/>
+              <rect x="160" y="152" width="132" height="7" rx="3.5" fill="var(--accent-ink)" opacity=".7"/>
+              <rect x="160" y="168" width="84" height="7" rx="3.5" fill="var(--accent-ink)" opacity=".7"/>
+              <text x="160" y="192" fill="var(--accent-ink)" font-size="10" font-weight="600">Sources: 2 documents</text>
+            </svg>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section class="block" id="about">
+    <div class="wrap about">
+      <div>
+        <h2>Hi there</h2>
+        <p>I'm a <strong>data engineer</strong> with five years of experience and a master's in computer science. My title says data analyst, but my day-to-day is engineering: I design and run the ETL and ELT pipelines that move data from source systems into warehouses like BigQuery, and I build the reporting that people rely on to make decisions.</p>
+        <p>Good AI runs on good data. That's why I'm moving toward <strong>AI engineering</strong>. I'm building retrieval-augmented generation (RAG) systems and LLM agents, and I bring the part many AI projects are missing: reliable pipelines, clean data, and production habits.</p>
+        <p>Before industry, I published research with my team on detecting breast cancer in screening mammograms with deep learning. That work taught me to take a model from an idea to results I could defend.</p>
+        <div class="cta-row" style="margin-top:28px">
+          <a class="btn primary" href="#contact">Send me a message</a>
+        </div>
+      </div>
+      <aside class="facts" aria-label="Quick facts">
+        <div class="fact"><div class="big">5 years</div><div class="small">building data pipelines and analytics</div></div>
+        <div class="fact"><div class="big">3 clouds</div><div class="small">AWS, Google Cloud and Azure</div></div>
+        <div class="fact"><div class="big">MS, CS</div><div class="small">Master's in computer science</div></div>
+        <div class="fact"><div class="big">1 paper</div><div class="small">Deep learning for mammogram screening</div></div>
+        <div class="fact"><div class="big">PL-300</div><div class="small">Microsoft Certified: Power BI Data Analyst Associate</div></div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ================= SKILLS ================= -->
+  <section class="block" id="skills">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>What I work with</h2>
+        <p>From raw events to dashboards to LLM applications.</p>
+      </div>
+      <div class="skills">
+        <div class="skill-group lead">
+          <h3>AI and machine learning</h3>
+          <p>Where I'm heading</p>
+          <ul class="tags"><li>RAG</li><li>LLMs</li><li>Agentic AI</li><li>Machine learning</li><li>Deep learning</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Data engineering</h3>
+          <p>Batch and streaming pipelines</p>
+          <ul class="tags"><li>ETL / ELT</li><li>Apache Beam</li><li>Airflow</li><li>Pub/Sub</li><li>BigQuery</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Cloud</h3>
+          <p>Deployed and operated across</p>
+          <ul class="tags"><li>AWS</li><li>Google Cloud</li><li>Azure</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Databases</h3>
+          <p>Modeling and querying</p>
+          <ul class="tags"><li>SQL</li><li>MySQL</li><li>SQL Server (SSMS)</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Analytics</h3>
+          <p>Turning data into decisions</p>
+          <ul class="tags"><li>Power BI</li><li>EDA</li><li>Data analysis</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Ways of working</h3>
+          <p>Shipping as a team</p>
+          <ul class="tags"><li>GitHub</li><li>Jira</li></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= EXPERIENCE ================= -->
+  <section class="block" id="experience">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>Experience and education</h2>
+      </div>
+      <!-- EDIT: companies, universities and dates -->
+      <ol class="timeline">
+        <li>
+          <div class="t-when">20XX – Present</div>
+          <div>
+            <h3>Data Analyst (Data Engineering)</h3>
+            <div class="t-where">Company name</div>
+            <p>Build and maintain ETL and ELT pipelines on GCP with Pub/Sub, Apache Beam, BigQuery and Airflow. Deliver Power BI reporting and exploratory analysis for business teams.</p>
+          </div>
+        </li>
+        <li>
+          <div class="t-when">20XX – 20XX</div>
+          <div>
+            <h3>Previous role</h3>
+            <div class="t-where">Company name</div>
+            <p>Describe your impact here, ideally with a number: data volume, time saved, cost reduced.</p>
+          </div>
+        </li>
+        <li>
+          <div class="t-when">20XX – 20XX</div>
+          <div>
+            <h3>Master of Science, Computer Science</h3>
+            <div class="t-where">University name</div>
+            <p>Published research on deep learning for breast cancer detection in screening mammograms.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section class="block contact" id="contact">
+    <div class="wrap">
+      <h2>Let's build something with your data.</h2>
+      <p>I'm looking for AI engineer roles where strong data foundations matter. If you're hiring, I'd like to hear from you.</p>
+      <div class="cta-row">
+        <!-- EDIT: your email -->
+        <a class="btn primary" href="mailto:you@example.com">Email me</a>
+        <a class="btn" href="https://www.linkedin.com/" target="_blank" rel="noopener">Connect on LinkedIn</a>
+        <a class="btn" href="https://github.com/" target="_blank" rel="noopener">See my GitHub</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© <span id="year">2026</span> Your Name</span>
+    <a href="#intro">Back to top</a>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
