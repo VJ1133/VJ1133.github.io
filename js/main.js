@@ -43,7 +43,7 @@
   }
 
   // Rotating role
-  var roles = ['AI Engineer', 'Data Engineer', 'ML Engineer', 'Power BI Developer'];
+  var roles = ['AI Engineer', 'Data Engineer', 'Data Analyst', 'Power BI Developer'];
   var roleEl = document.getElementById('role-word'), idx = 0;
   if (!reduce) setInterval(function(){
     roleEl.classList.add('out');

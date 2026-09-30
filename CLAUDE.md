@@ -30,7 +30,7 @@ Positioning: "Good AI runs on good data." Present the data engineering backgroun
 
 ## To do
 - [x] Replace "Your Name" and "YN" initials everywhere (now Vamshi Jaligama / VJ), including `<title>` and meta description.
-- [ ] Add real GitHub, LinkedIn and email links (nav, contact section).
+- [x] Add real GitHub, LinkedIn and email links (nav, contact section). Rotating role text now uses Data Analyst instead of ML Engineer.
 - [ ] Replace projects 02 and 03 (currently stand-ins) with real GitHub projects. Each project needs a title, a 1–2 sentence description of what it does, tech tags, a GitHub link, and a demo link if available.
 - [ ] Add the paper link to project 01.
 - [ ] Add `assets/resume.pdf` and point the "Get my resume" button at it.
