@@ -106,38 +106,28 @@
           </div>
         </article>
 
-        <!-- Project 2: EDIT with a real GitHub project -->
+        <!-- Project 2: COVID-19 research papers -->
         <article class="project">
           <div>
             <div class="p-num">02</div>
-            <h3>Real-time streaming pipeline on GCP</h3>
-            <p>Events flow from Pub/Sub through Apache Beam on Dataflow into BigQuery, orchestrated with Airflow and surfaced in Power BI for near real-time reporting.</p>
-            <ul class="tags"><li>Pub/Sub</li><li>Apache Beam</li><li>BigQuery</li><li>Airflow</li><li>Power BI</li></ul>
+            <h3>Analysis of COVID-19 research papers</h3>
+            <p>Health professionals struggle to keep up with new COVID-19 research. This project cleans and text-mines a paper dataset, finds keywords, and clusters similar papers so they show up near each other on a scatter plot.</p>
+            <ul class="tags"><li>Python</li><li>Jupyter</li><li>Pandas</li><li>NLTK</li><li>Clustering</li><li>Text mining</li></ul>
             <div class="links">
-              <a href="https://github.com/" target="_blank" rel="noopener">View code on GitHub</a>
+              <a href="https://github.com/VJ1133/Analysis-of-COVID-19-research-papers" target="_blank" rel="noopener">View code on GitHub</a>
             </div>
           </div>
           <div class="p-visual" aria-hidden="true">
             <svg viewBox="0 0 320 220" font-family="IBM Plex Sans, sans-serif" font-size="11">
-              <g fill="none" stroke="var(--line)" stroke-width="2">
-                <path d="M70 110 H 118"/><path d="M178 110 H 226"/>
-                <path d="M258 128 V 160"/>
+              <g fill="var(--accent)"><circle cx="60" cy="70" r="5"/><circle cx="80" cy="88" r="5"/><circle cx="52" cy="98" r="5"/><circle cx="76" cy="62" r="5"/><circle cx="92" cy="76" r="5"/></g>
+              <g fill="var(--cool)"><circle cx="200" cy="52" r="5"/><circle cx="222" cy="68" r="5"/><circle cx="188" cy="76" r="5"/><circle cx="214" cy="42" r="5"/><circle cx="236" cy="56" r="5"/></g>
+              <g fill="var(--text)" opacity=".75"><circle cx="150" cy="158" r="5"/><circle cx="172" cy="176" r="5"/><circle cx="132" cy="178" r="5"/><circle cx="160" cy="190" r="5"/><circle cx="184" cy="152" r="5"/></g>
+              <g fill="none" stroke="var(--line)" stroke-width="1.5" stroke-dasharray="3 4">
+                <ellipse cx="71" cy="79" rx="40" ry="34"/><ellipse cx="212" cy="58" rx="42" ry="32"/><ellipse cx="156" cy="170" rx="42" ry="34"/>
               </g>
-              <g fill="none" stroke="var(--accent)" stroke-width="2" stroke-dasharray="3 6">
-                <path d="M70 110 H 118"><animate attributeName="stroke-dashoffset" from="18" to="0" dur="1s" repeatCount="indefinite"/></path>
-                <path d="M178 110 H 226"><animate attributeName="stroke-dashoffset" from="18" to="0" dur="1s" repeatCount="indefinite"/></path>
-              </g>
-              <rect x="14" y="88" width="56" height="44" rx="10" fill="var(--surface-2)"/>
-              <text x="42" y="114" text-anchor="middle" fill="var(--text)">Pub/Sub</text>
-              <rect x="118" y="88" width="60" height="44" rx="10" fill="var(--surface-2)"/>
-              <text x="148" y="114" text-anchor="middle" fill="var(--text)">Beam</text>
-              <rect x="226" y="88" width="72" height="44" rx="10" fill="var(--accent)"/>
-              <text x="262" y="114" text-anchor="middle" fill="var(--accent-ink)" font-weight="600">BigQuery</text>
-              <rect x="222" y="160" width="80" height="40" rx="10" fill="var(--surface-2)"/>
-              <g fill="var(--cool)"><rect x="236" y="182" width="8" height="10"/><rect x="250" y="175" width="8" height="17"/><rect x="264" y="170" width="8" height="22"/><rect x="278" y="178" width="8" height="14"/></g>
-              <rect x="112" y="24" width="72" height="30" rx="8" fill="none" stroke="var(--line)" stroke-width="1.5"/>
-              <text x="148" y="43" text-anchor="middle" fill="var(--muted)">Airflow</text>
-              <path d="M148 54 V 88" stroke="var(--line)" stroke-width="1.5" stroke-dasharray="3 4"/>
+              <text x="71" y="128" text-anchor="middle" fill="var(--muted)">topic A</text>
+              <text x="212" y="102" text-anchor="middle" fill="var(--muted)">topic B</text>
+              <text x="156" y="214" text-anchor="middle" fill="var(--muted)">topic C</text>
             </svg>
           </div>
         </article>
