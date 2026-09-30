@@ -29,7 +29,7 @@ Positioning: "Good AI runs on good data." Present the data engineering backgroun
 - Project 01 (the published mammography paper) is real content.
 
 ## To do
-- [ ] Replace "Your Name" and "YN" initials everywhere, including `<title>` and meta description.
+- [x] Replace "Your Name" and "YN" initials everywhere (now Vamshi Jaligama / VJ), including `<title>` and meta description.
 - [ ] Add real GitHub, LinkedIn and email links (nav, contact section).
 - [ ] Replace projects 02 and 03 (currently stand-ins) with real GitHub projects. Each project needs a title, a 1–2 sentence description of what it does, tech tags, a GitHub link, and a demo link if available.
 - [ ] Add the paper link to project 01.
