@@ -30,10 +30,15 @@
   var nameEl = document.getElementById('hero-name');
   if (!reduce) {
     var text = nameEl.textContent; nameEl.setAttribute('aria-label', text); nameEl.textContent = '';
-    text.split('').forEach(function(c, i){
-      var s = document.createElement('span'); s.className = 'ch'; s.setAttribute('aria-hidden','true');
-      s.textContent = c === ' ' ? '\u00A0' : c; s.style.animationDelay = (i * 35) + 'ms';
-      nameEl.appendChild(s);
+    text.split(' ').forEach(function(word, w, words){
+      var wrap = document.createElement('span'); wrap.className = 'word'; wrap.setAttribute('aria-hidden','true');
+      word.split('').forEach(function(c, i){
+        var s = document.createElement('span'); s.className = 'ch';
+        s.textContent = c; s.style.animationDelay = ((w * 8 + i) * 35) + 'ms';
+        wrap.appendChild(s);
+      });
+      nameEl.appendChild(wrap);
+      if (w < words.length - 1) nameEl.appendChild(document.createTextNode(' '));
     });
   }
 
