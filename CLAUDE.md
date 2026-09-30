@@ -34,6 +34,6 @@ Positioning: "Good AI runs on good data." Present the data engineering backgroun
 - [ ] Replace projects 02 and 03 (currently stand-ins) with real GitHub projects. Each project needs a title, a 1–2 sentence description of what it does, tech tags, a GitHub link, and a demo link if available.
 - [ ] Add the paper link to project 01.
 - [ ] Add `assets/resume.pdf` and point the "Get my resume" button at it.
-- [ ] Fill in the experience timeline: companies, universities, dates, and impact with numbers.
+- [ ] Experience timeline: companies, dates and education filled in. Still needed: ValueMomentum job title, and impact numbers for each role.
 - [ ] Add Python to skills (confirm first).
 - [ ] Optional: add an Open Graph preview image and a custom domain.
