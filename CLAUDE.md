@@ -35,7 +35,7 @@ Positioning: "Good AI runs on good data." Present the data engineering backgroun
 - [x] Removed the "Published" badge and paper link; project 01 is a university project.
 - [ ] Add `assets/resume.pdf` and point the "Get my resume" button at it.
 - [x] Experience timeline filled in (Gandara Center, CMU, ValueMomentum). Optional: add impact numbers for the Gandara Center role.
-- [ ] Add Python to skills (confirm first).
+- [x] Add Python to skills (confirmed by user; in Data engineering group).
 - [ ] Optional: add an Open Graph preview image and a custom domain.
 
 ## Done (credentials)
