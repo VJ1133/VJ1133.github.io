@@ -8,7 +8,7 @@ A static portfolio site: plain HTML, CSS and JavaScript, with no build step.
 index.html       Page content (search for "EDIT:" to find every placeholder)
 css/styles.css   Colors, fonts, layout (theme colors are at the top in :root)
 js/main.js       Theme toggle, mobile menu, rotating role text, hero animation
-assets/          Put your resume PDF and any images here
+assets/          Images such as the preview card (no resume PDF, the repo is public)
 ```
 
 ## Edit locally in Cursor
@@ -18,8 +18,8 @@ assets/          Put your resume PDF and any images here
    "Open with Live Server" to see changes as you save.
 3. Search the project for `EDIT:` and replace the placeholders: your name, links,
    email, projects, companies, dates.
-4. Add your resume as `assets/resume.pdf`, then change the "Get my resume"
-   button's link to `assets/resume.pdf`.
+4. Keep your resume PDF out of this repo (it is public). The experience section
+   shows the job responsibilities instead.
 
 ## Host for free on GitHub Pages
 

@@ -4,9 +4,9 @@
 Portfolio website for a data engineer applying to **AI Engineer** roles. Audience: recruiters and hiring managers.
 
 - Official job title is "Data Analyst", but the actual work is data engineering.
-- 5 years of experience. Master's in Computer Science.
-- Data engineering: ETL/ELT pipelines, Apache Beam, Airflow, Pub/Sub, BigQuery.
-- Cloud: AWS, GCP, Azure. Databases: SQL, MySQL, SQL Server (SSMS).
+- 5+ years of experience. Master's in Computer Science.
+- Data engineering: ETL/ELT pipelines, PySpark, Databricks, Snowflake, dbt, Airflow, Azure Data Factory. (No GCP/Beam/Pub/Sub/BigQuery: removed on purpose.)
+- Cloud: AWS, Azure, Snowflake. Databases: SQL, MySQL, SQL Server (SSMS).
 - Analytics: Power BI (Microsoft Certified: Power BI Data Analyst Associate, PL-300), EDA, data analysis.
 - ML/AI: machine learning, currently learning and building with RAG, LLMs, agentic AI.
 - Tools: GitHub, Jira.
@@ -33,7 +33,7 @@ Positioning: "Good AI runs on good data." Present the data engineering backgroun
 - [x] Add real GitHub, LinkedIn and email links (nav, contact section). Rotating role text now uses Data Analyst instead of ML Engineer.
 - [x] Projects: 01 mammography (university), 02 COVID-19 papers, 03 RAG (real repo), 04 Uber analysis. All real, all with GitHub links.
 - [x] Removed the "Published" badge and paper link; project 01 is a university project.
-- [x] Resume added as `assets/resume.pdf` (from D:\Resumes\VJ_DE.pdf); hero "Get my resume" button restored. Re-copy the file when the resume changes.
+- [x] Resume is NOT public: no PDF in the repo (`assets/*.pdf` is gitignored) and no resume button. The experience section shows the job responsibilities from the resume instead. Do not commit the PDF (it has a phone number).
 - [x] Experience timeline filled in (Gandara Center, CMU, ValueMomentum). Optional: add impact numbers for the Gandara Center role.
 - [x] Add Python to skills (confirmed by user; in Data engineering group).
 - [x] Skills section and Gandara/ValueMomentum descriptions updated from the resume. Open: user may still have more skills to add.
@@ -43,8 +43,7 @@ Positioning: "Good AI runs on good data." Present the data engineering backgroun
 ## Done (credentials)
 - Credential links added in About: PL-300 (Microsoft Learn), Google data courses (skills.google), HackerRank certificate.
 
-## Open questions to resolve with the user
-- Site still lists GCP, Apache Beam, Pub/Sub and BigQuery (from the original brief), but the resume does not mention them. Ask whether to keep or remove.
-- Site says "5 years" of experience (About + quick facts); the resume says "4+ years". Pick one and make them match.
-- ValueMomentum title: site says "Data Engineer" (user's instruction), resume says "Software Engineer".
-- The resume PDF is public on the live site and contains the user's phone number and city.
+## Decisions made by the user
+- Experience is "5+ years" everywhere. ValueMomentum title stays "Data Engineer" (resume says Software Engineer, on purpose).
+- GCP, Apache Beam, Pub/Sub and BigQuery were removed from the site.
+- Resume PDF must stay private.
