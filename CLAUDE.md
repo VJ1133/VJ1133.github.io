@@ -5,8 +5,8 @@ Portfolio website for a data engineer applying to **AI Engineer** roles. Audienc
 
 - Official job title is "Data Analyst", but the actual work is data engineering.
 - 5+ years of experience. Master's in Computer Science.
-- Data engineering: ETL/ELT pipelines, PySpark, Databricks, Snowflake, dbt, Airflow, Azure Data Factory. (No GCP/Beam/Pub/Sub/BigQuery: removed on purpose.)
-- Cloud: AWS, Azure, Snowflake. Databases: SQL, MySQL, SQL Server (SSMS).
+- Data engineering: ETL/ELT pipelines, PySpark, Databricks, Snowflake, dbt, Airflow, Azure Data Factory. (No Beam/Pub/Sub/BigQuery: removed on purpose.)
+- Cloud: AWS, GCP, Azure (user has worked with all 3), plus Snowflake. Databases: SQL, MySQL, SQL Server (SSMS).
 - Analytics: Power BI (Microsoft Certified: Power BI Data Analyst Associate, PL-300), EDA, data analysis.
 - ML/AI: machine learning, currently learning and building with RAG, LLMs, agentic AI.
 - Tools: GitHub, Jira.
@@ -45,5 +45,5 @@ Positioning: "Good AI runs on good data." Present the data engineering backgroun
 
 ## Decisions made by the user
 - Experience is "5+ years" everywhere. ValueMomentum title stays "Data Engineer" (resume says Software Engineer, on purpose).
-- GCP, Apache Beam, Pub/Sub and BigQuery were removed from the site.
+- Apache Beam, Pub/Sub and BigQuery were removed from the site. GCP itself stays: user confirmed they worked with all 3 clouds (AWS, GCP, Azure).
 - Resume PDF must stay private.
