@@ -33,12 +33,18 @@ Positioning: "Good AI runs on good data." Present the data engineering backgroun
 - [x] Add real GitHub, LinkedIn and email links (nav, contact section). Rotating role text now uses Data Analyst instead of ML Engineer.
 - [x] Projects: 01 mammography (university), 02 COVID-19 papers, 03 RAG (real repo), 04 Uber analysis. All real, all with GitHub links.
 - [x] Removed the "Published" badge and paper link; project 01 is a university project.
-- [ ] Add `assets/resume.pdf`. The "Get my resume" button is currently HIDDEN (commented out in `index.html`, hero section). When the PDF exists, restore it as `<a class="btn" href="assets/resume.pdf">Get my resume</a>`.
+- [x] Resume added as `assets/resume.pdf` (from D:\Resumes\VJ_DE.pdf); hero "Get my resume" button restored. Re-copy the file when the resume changes.
 - [x] Experience timeline filled in (Gandara Center, CMU, ValueMomentum). Optional: add impact numbers for the Gandara Center role.
 - [x] Add Python to skills (confirmed by user; in Data engineering group).
-- [ ] Skills: user says many more skills still to add. Ask for the list, then update the Skills section in `index.html` (do not add skills the user has not confirmed).
+- [x] Skills section and Gandara/ValueMomentum descriptions updated from the resume. Open: user may still have more skills to add.
 - [x] Open Graph preview image added (`assets/og-image.png` + meta tags in `index.html`).
 - [ ] Optional: custom domain. If the site URL changes, update the og:url and og:image URLs.
 
 ## Done (credentials)
 - Credential links added in About: PL-300 (Microsoft Learn), Google data courses (skills.google), HackerRank certificate.
+
+## Open questions to resolve with the user
+- Site still lists GCP, Apache Beam, Pub/Sub and BigQuery (from the original brief), but the resume does not mention them. Ask whether to keep or remove.
+- Site says "5 years" of experience (About + quick facts); the resume says "4+ years". Pick one and make them match.
+- ValueMomentum title: site says "Data Engineer" (user's instruction), resume says "Software Engineer".
+- The resume PDF is public on the live site and contains the user's phone number and city.
